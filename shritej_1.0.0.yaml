@@ -1,0 +1,30 @@
+info:
+  version: 1.0.0
+  title: shritej
+  name: shritej
+gateways:
+  - datapower-api-gateway
+plans:
+  default-plan:
+    title: Default Plan
+    description: Default Plan
+    rate-limits:
+      default:
+        value: 100/1hour
+    apis:
+      trail11.0.0: {}
+apis:
+  trail11.0.0:
+    $ref: ./trail1_1.0.0.yaml
+visibility:
+  view:
+    type: public
+    orgs: []
+    tags: []
+    enabled: true
+  subscribe:
+    type: authenticated
+    orgs: []
+    tags: []
+    enabled: true
+product: 1.0.0
