@@ -1,7 +1,7 @@
 info:
   version: 1.0.0
-  title: Product EDK_Google_Product
-  name: product-edk_google_product
+  title: trail_2_product
+  name: trail_2_product
 gateways:
   - datapower-api-gateway
 plans:
@@ -12,10 +12,10 @@ plans:
       default:
         value: 100/1hour
     apis:
-      ts_google1.0.0: {}
+      trail_21.0.0: {}
 apis:
-  ts_google1.0.0:
-    $ref: ./ts_google_1.0.0.yaml
+  trail_21.0.0:
+    $ref: ./trail_2_1.0.0.yaml
 visibility:
   view:
     type: public

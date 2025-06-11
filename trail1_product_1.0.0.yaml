@@ -1,7 +1,7 @@
 info:
   version: 1.0.0
-  title: shritej
-  name: shritej
+  title: trail1_product
+  name: trail1_product
 gateways:
   - datapower-api-gateway
 plans:
